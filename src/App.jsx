@@ -1,20 +1,19 @@
-import { BrowserRouter, Route } from "react-router-dom";
-import Header from "./components/Header/header";
-import Home from "./pages/home/home";
-import { Switch } from "@mui/material";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/home/Home";
+import Header from "./components/header/header";
 import Login from "./pages/login/login";
 
 function App() {
   return (
     <div>
-      <Header />
       <BrowserRouter>
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/login" exact component={Login} />
-        </Switch>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/signin" element={<Login />} />
+          <Route path="/signup" element={<Login />} />
+        </Routes>
       </BrowserRouter>
-      <Home />
     </div>
   );
 }

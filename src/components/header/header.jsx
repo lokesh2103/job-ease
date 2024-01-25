@@ -1,12 +1,12 @@
 import { AppBar, Button, Link, Toolbar, Typography } from "@mui/material";
-// import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-  //   const history = useHistory();
+  const nav = useNavigate();
 
   const handleClick = () => {
     // Navigate("/login");
-    // history.push("/login");
+    nav()
   };
 
   return (
@@ -18,7 +18,7 @@ const Header = () => {
     >
       <Toolbar sx={{ flexWrap: "wrap" }}>
         <Typography variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>
-          JobeEase
+          JobEase
         </Typography>
         <nav>
           <Link
