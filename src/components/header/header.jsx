@@ -6,7 +6,7 @@ const Header = () => {
 
   const handleClick = () => {
     // Navigate("/login");
-    nav()
+    nav("/signin");
   };
 
   return (
