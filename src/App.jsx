@@ -1,10 +1,21 @@
-import "./App.css";
+import { BrowserRouter, Route } from "react-router-dom";
+import Header from "./components/Header/header";
+import Home from "./pages/home/home";
+import { Switch } from "@mui/material";
+import Login from "./pages/login/login";
 
 function App() {
   return (
-    <>
-      <h1>This our React App</h1>
-    </>
+    <div>
+      <Header />
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/login" exact component={Login} />
+        </Switch>
+      </BrowserRouter>
+      <Home />
+    </div>
   );
 }
 
