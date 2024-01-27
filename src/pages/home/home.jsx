@@ -1,4 +1,4 @@
-import { Button, Container, Typography, Box } from "@mui/material";
+import { Container, Typography, Box } from "@mui/material";
 
 function Home() {
   return (
@@ -12,20 +12,6 @@ function Home() {
             Forget the endless job boards and filters. Get personalized career
             recommendations and autofill your applications with our extension.
           </Typography>
-          <Button
-            variant="contained"
-            color="primary"
-            style={{ marginTop: "20px" }}
-          >
-            Sign Up
-          </Button>
-          <Button
-            variant="contained"
-            color="primary"
-            style={{ marginTop: "20px" }}
-          >
-            Login
-          </Button>
           <Typography variant="body1" style={{ marginTop: "20px" }}>
             15,000,000+ applications submitted
           </Typography>
