@@ -3,7 +3,7 @@ import { Container, Typography, Box } from "@mui/material";
 function Home() {
   return (
     <div>
-      <Container maxWidth="lg">
+      <Container>
         <Box my={4} style={{ textAlign: "center" }}>
           <Typography variant="h3" gutterBottom>
             We&apos;re dedicated to helping you job search.
