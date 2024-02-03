@@ -8,8 +8,6 @@ import List from "../../components/dashboard/rightSideCompoents/list/List";
 const Applications = () => {
   const selectedToggle = useSelector((state) => state.applications.toggle);
 
-  console.log("selectedToggle", selectedToggle);
-
   return (
     <div className="applicationsPage">
       <ApplicationHeader />
