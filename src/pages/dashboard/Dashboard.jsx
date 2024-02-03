@@ -22,10 +22,7 @@ import {
   AppBar,
   Drawer,
 } from "./../../components/dashboard/leftSidecomponents/drawer/drawerMUI";
-import { Route, Routes, Link, Outlet } from "react-router-dom";
-
-import Applications from "./../applications/Applications";
-import Calender from "./../calender/Calender";
+import { Link, Outlet } from "react-router-dom";
 
 export default function MiniDrawer() {
   const theme = useTheme();
@@ -74,7 +71,14 @@ export default function MiniDrawer() {
         <Divider />
         <List>
           {["Dashboard", "Applications", "Calender"].map((text, index) => (
-            <Link key={text} to={`${text.toLocaleLowerCase()}`}>
+            <Link
+              key={text}
+              to={
+                text == "Dashboard"
+                  ? "/dashboard"
+                  : `${text.toLocaleLowerCase()}`
+              }
+            >
               <ListItem disablePadding sx={{ display: "block" }}>
                 <ListItemButton
                   sx={{

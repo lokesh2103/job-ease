@@ -1,0 +1,71 @@
+.header{
+    width: 100%;
+    .mainHeadingContainer{
+
+        .subHeading{
+            display: flex;
+            justify-content: space-between;
+
+            .subHeadingInfo{
+                display: flex;
+                justify-content: space-between;
+                width: 34%;
+            }
+
+            // .buttonsContainer{
+            //     flex: 1;
+            // }
+        }
+    }
+
+    .filterContainer{
+        .searchField {
+            
+            .search{
+                width: 100% !important;
+            }
+        }
+
+        .filters{
+            display: flex;
+            margin-top: 20px;
+            justify-content: space-between;
+        }
+
+        .filter{
+            width: 44%;
+        }
+    }
+
+    .toggles{
+        display: flex;
+        justify-content: space-between;
+        min-width: 150px;
+        float: right;
+        .toggle{
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .toggle:hover {
+            color: #007bff
+        }
+
+        
+    }
+}
+
+.navButton{
+    background-color: #280274 !important;
+    color: #F2F597 !important;
+}
+
+.selected {
+    cursor: none;
+}
+.selected:hover {
+    cursor: default !important;
+    color: #212121 !important;
+}
