@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import ApplicationHeader from "./../../components/dashboard/rightSideCompoents/applicationHeader/ApplicationHeader";
 
@@ -11,7 +10,9 @@ const Applications = () => {
   return (
     <div className="applicationsPage">
       <ApplicationHeader />
-      {selectedToggle == "list" ? <List /> : <Coloumns />}
+      <div className="applicationBody">
+        {selectedToggle == "list" ? <List /> : <Coloumns />}
+      </div>
     </div>
   );
 };

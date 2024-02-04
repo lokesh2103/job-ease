@@ -1,0 +1,32 @@
+.applicationContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .commonStyle{
+        display: flex;
+        align-items: center;
+    }
+    
+    .applicationInfo{
+        flex: 1;
+
+        .companyLogo{
+            width: 14%;
+            img{
+                width: 100%;
+                min-width: 50px;
+            }
+        }
+        
+    }
+
+    .applicationStatusDiv{
+        flex: 2;
+        display: flex;
+        justify-content: flex-end;
+
+        .applicationStatus{
+            width: 100%;
+        }
+    }
+}

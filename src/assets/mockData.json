@@ -1,0 +1,50 @@
+[
+  {
+    "Role": "Software Engineer",
+    "Location": "San Francisco, CA",
+    "JobDescription": "Join our innovative team working on cutting-edge technologies.",
+    "CompanyIconHref": "https://example.com/company1-icon.png",
+    "Country": "USA",
+    "Company": "Tech Innovators Inc."
+  },
+  {
+    "Role": "Data Analyst",
+    "Location": "New York, NY",
+    "JobDescription": "Exciting opportunity to analyze and interpret complex data sets.",
+    "CompanyIconHref": "https://example.com/company2-icon.png",
+    "Country": "USA",
+    "Company": "Data Insights Co."
+  },
+  {
+    "Role": "UX/UI Designer",
+    "Location": "Bangalore, Karnataka",
+    "JobDescription": "Design intuitive and visually appealing user interfaces.",
+    "CompanyIconHref": "https://example.com/company3-icon.png",
+    "Country": "India",
+    "Company": "Creative Designs Ltd."
+  },
+  {
+    "Role": "Marketing Specialist",
+    "Location": "Chicago, IL",
+    "JobDescription": "Develop and implement marketing strategies for our products.",
+    "CompanyIconHref": "https://example.com/company4-icon.png",
+    "Country": "USA",
+    "Company": "Strategic Marketing Solutions"
+  },
+  {
+    "Role": "Project Manager",
+    "Location": "Mumbai, Maharashtra",
+    "JobDescription": "Lead cross-functional teams to deliver successful projects.",
+    "CompanyIconHref": "https://example.com/company5-icon.png",
+    "Country": "India",
+    "Company": "Project Leaders Ltd."
+  },
+  {
+    "Role": "Customer Support Representative",
+    "Location": "Denver, CO",
+    "JobDescription": "Provide exceptional support to our valued customers.",
+    "CompanyIconHref": "https://example.com/company6-icon.png",
+    "Country": "USA",
+    "Company": "CustomerCare Experts Inc."
+  }
+]
