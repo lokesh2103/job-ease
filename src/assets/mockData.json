@@ -1,5 +1,6 @@
 [
   {
+    "id" : 1,
     "Role": "Software Engineer",
     "Location": "San Francisco, CA",
     "JobDescription": "Join our innovative team working on cutting-edge technologies.",
@@ -8,6 +9,7 @@
     "Company": "Tech Innovators Inc."
   },
   {
+    "id" : 2,
     "Role": "Data Analyst",
     "Location": "New York, NY",
     "JobDescription": "Exciting opportunity to analyze and interpret complex data sets.",
@@ -16,6 +18,7 @@
     "Company": "Data Insights Co."
   },
   {
+    "id" : 3,
     "Role": "UX/UI Designer",
     "Location": "Bangalore, Karnataka",
     "JobDescription": "Design intuitive and visually appealing user interfaces.",
@@ -24,6 +27,7 @@
     "Company": "Creative Designs Ltd."
   },
   {
+    "id" : 4,
     "Role": "Marketing Specialist",
     "Location": "Chicago, IL",
     "JobDescription": "Develop and implement marketing strategies for our products.",
@@ -32,6 +36,7 @@
     "Company": "Strategic Marketing Solutions"
   },
   {
+    "id" : 5,
     "Role": "Project Manager",
     "Location": "Mumbai, Maharashtra",
     "JobDescription": "Lead cross-functional teams to deliver successful projects.",
@@ -40,6 +45,7 @@
     "Company": "Project Leaders Ltd."
   },
   {
+    "id" : 6,
     "Role": "Customer Support Representative",
     "Location": "Denver, CO",
     "JobDescription": "Provide exceptional support to our valued customers.",

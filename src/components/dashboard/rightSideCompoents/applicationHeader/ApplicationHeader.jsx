@@ -10,8 +10,9 @@ import {
 import SearchIcon from "@mui/icons-material/Search";
 import ViewColumnIcon from "@mui/icons-material/ViewColumn";
 import ListIcon from "@mui/icons-material/List";
-
+import Steps from "./../../../../constants/ApplicationStatus";
 import "./ApplicationHeader.scss";
+
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setToggle } from "../../../../Redux/features/dashboard/applicationSlice";
@@ -114,11 +115,11 @@ function Header() {
               label="Status"
               // onChange={handleChange}
             >
-              <MenuItem value="applied">Applied</MenuItem>
-              <MenuItem value="screen">Screen</MenuItem>
-              <MenuItem value="Interviewing">Interviewing</MenuItem>
-              <MenuItem value="Offer">Offer</MenuItem>
-              <MenuItem value="Rejected">Rejected</MenuItem>
+              {Steps.map((item, index) => (
+                <MenuItem key={index} value={item.name.toLowerCase()}>
+                  {item.name}
+                </MenuItem>
+              ))}
             </Select>
           </FormControl>
         </div>
